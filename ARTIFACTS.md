@@ -1,12 +1,11 @@
 # Large Artifacts
 
-The following files were intentionally not committed to GitHub because they exceed normal GitHub file size limits:
+The repository keeps code only. Download the large artifacts from Google Drive:
 
-- `figure_model_public/final_model.ckpt`
-- `train_90000_random.h5`
+- `train_90000_random.h5`: https://drive.google.com/file/d/1nfqZpSXmpXErNUNK9X8jQSWTeRBh5CJi/view?usp=drive_link
+- `figure_model_public/final_model.ckpt`: https://drive.google.com/file/d/1-_TnN1Ba2QY7gLM6xHxxd5dfNvR4kORz/view?usp=drive_link
 
-To publish these artifacts, use one of:
+Recommended placement after download:
 
-- GitHub Releases
-- Git LFS
-- External object storage or Hugging Face Hub
+- `train_90000_random.h5` -> repository root
+- `final_model.ckpt` -> `figure_model_public/`

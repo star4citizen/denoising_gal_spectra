@@ -10,6 +10,14 @@
 
 체크포인트 파일은 이 폴더 안의 `final_model.ckpt` 를 기본으로 사용합니다.
 
+## Download Checkpoint
+
+공개용 체크포인트는 아래 링크에서 받을 수 있습니다.
+
+- `final_model.ckpt`: https://drive.google.com/file/d/1-_TnN1Ba2QY7gLM6xHxxd5dfNvR4kORz/view?usp=drive_link
+
+파일을 다운로드한 뒤 이 폴더 안에 `final_model.ckpt` 이름으로 두면 됩니다.
+
 ## Model Used In Figure Scripts
 
 `Figure` 폴더의 분석 스크립트들은 모두 아래 체크포인트를 사용합니다.

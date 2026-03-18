@@ -16,6 +16,18 @@
 
 원하면 raw `.out` 파일에서 직접 다시 뽑을 수도 있습니다.
 
+## Download Prebuilt Artifacts
+
+대용량 파일은 Google Drive에서 직접 받을 수 있습니다.
+
+- `train_90000_random.h5`: https://drive.google.com/file/d/1nfqZpSXmpXErNUNK9X8jQSWTeRBh5CJi/view?usp=drive_link
+- `final_model.ckpt`: https://drive.google.com/file/d/1-_TnN1Ba2QY7gLM6xHxxd5dfNvR4kORz/view?usp=drive_link
+
+다운로드 후 기본 위치는 다음처럼 맞추면 됩니다.
+
+- `train_90000_random.h5` -> repository root
+- `final_model.ckpt` -> `figure_model_public/`
+
 ## HDF5 Format
 
 - `wave`: `(N, L)`
