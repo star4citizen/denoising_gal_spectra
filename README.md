@@ -5,6 +5,8 @@
 
 ## Files
 
+https://drive.google.com/drive/folders/1uLP5QHQDX_8a1Y9X2FwqHIPGhnxEibRO?usp=drive_link
+
 - `train_90000_random.h5`: 90,000개 랜덤 샘플을 저장한 HDF5
 - `create_random_subset_hdf5.py`: HDF5 생성 스크립트
 - `hdf5_training_dataset.py`: 정규화된 clean/error를 읽고 학습 시점에 noise를 추가하는 PyTorch Dataset/DataLoader 코드
